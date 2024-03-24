@@ -1,0 +1,9 @@
+.my-wallet {
+  width: 100%;
+}
+
+@media only screen and (max-width: 650px) {
+  .my-wallet {
+    width: 100%;
+  }
+}

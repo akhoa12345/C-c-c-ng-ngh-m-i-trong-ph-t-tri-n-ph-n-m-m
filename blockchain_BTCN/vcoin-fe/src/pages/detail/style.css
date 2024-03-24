@@ -1,0 +1,11 @@
+.detail-container > p {
+  margin: 2em;
+}
+
+.detail-container {
+  overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+}

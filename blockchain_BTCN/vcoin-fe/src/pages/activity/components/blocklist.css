@@ -1,0 +1,33 @@
+.list-container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-header {
+  text-align: center;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 1;
+  min-height: 3em;
+  box-shadow: 0 0.5rem 1.2rem rgb(189 197 209 / 20%);
+}
+.block-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.block-img {
+  border-radius: 5px;
+  width: 5em;
+  height: 5em;
+}
+
+.miner-info {
+  display: flex;
+  flex-direction: column;
+}

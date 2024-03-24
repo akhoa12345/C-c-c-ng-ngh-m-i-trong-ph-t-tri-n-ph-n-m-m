@@ -1,0 +1,28 @@
+.loader {
+  border-radius: 50%;
+}
+
+.loader-big {
+  border: 1em solid #f3f3f3; /* Light grey */
+  border-top: 1em solid #3498db; /* Blue */
+  width: 6em;
+  height: 6em;
+  animation: spin 2s linear infinite;
+}
+
+.loader-small {
+  border: 0.4em solid #f3f3f3; /* Light grey */
+  border-top: 0.4em solid #3498db; /* Blue */
+  width: 1.2em;
+  height: 1.2em;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

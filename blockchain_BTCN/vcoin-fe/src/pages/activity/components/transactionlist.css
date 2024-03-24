@@ -1,0 +1,47 @@
+.list-container {
+  min-height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-header {
+  text-align: center;
+}
+
+.transaction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 1;
+  min-height: 3em;
+  box-shadow: 0 0.5rem 1.2rem rgb(189 197 209 / 20%);
+}
+.transaction-info {
+  width: 8em;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+.transaction-img {
+  border-radius: 5px;
+  width: 5em;
+  height: 5em;
+}
+
+.address-info {
+  width: 10em;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+.status-info {
+  width: 8em;
+  text-align: left;
+}

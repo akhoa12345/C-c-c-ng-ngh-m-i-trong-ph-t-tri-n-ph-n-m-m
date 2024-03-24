@@ -1,0 +1,72 @@
+.profile-bar {
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  box-sizing: border-box;
+  padding: 0.5em 0 0.5em 0.4em;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05), 0 0 1px rgba(0, 0, 0, 0.25);
+  display: flex;
+}
+.profile-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  transition: opacity 1s ease, background 1s ease;
+  border-radius: 1.2rem;
+  padding: 0.5em 0 0.5em 0;
+  margin-left: 0.4em;
+  width: 19em;
+  height: 100%;
+  align-items: center;
+}
+
+.profile-container:hover {
+  opacity: 0.8;
+  background: #d3d3d3;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  margin: 0 0.5em 0 0.5em;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  height: 100%;
+  min-width: 15em;
+  word-wrap: break-word;
+}
+.text-container > p {
+  font-style: normal;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.bold {
+  font-weight: 600;
+  letter-spacing: 0.15em;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.light {
+  font-weight: 200;
+}
+
+.public-address-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+.public-address-container > p {
+  margin-left: 0.8em;
+}
+.public-address-container > button {
+  margin-left: 0.5em;
+}

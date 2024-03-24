@@ -1,0 +1,9 @@
+{
+  "chainIds": [80001],
+  "contracts": [
+    {
+      "address": "0x5523B2CB564579aAf2947B8d08e2187ff35aE4b2",
+      "chainId": 80001
+    }
+  ]
+}

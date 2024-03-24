@@ -1,0 +1,39 @@
+.search-bar {
+  width: 94%;
+  height: 2em;
+  display: flex;
+  border: 1px solid rgba(95, 99, 104, 0.2);
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: background ease 0.5s;
+}
+
+.focus-bg {
+  background: white;
+}
+
+.bg {
+  background: radial-gradient(
+      137.35% 97% at 100% 50%,
+      rgba(250, 250, 250, 0.94) 0%,
+      rgba(250, 250, 250, 0.96) 28.91%,
+      rgba(250, 250, 250, 0.98) 100%
+    ),
+    linear-gradient(rgb(197, 73, 255) 0%, rgb(104, 76, 255) 100%);
+}
+
+.search-bar-input {
+  border: none;
+  height: 100%;
+  width: 75%;
+  transition: background ease 0.5s;
+  outline: none;
+  font-size: 1em;
+  padding: 0 1em 0 0.5em;
+}
+
+.search-bar-icon {
+  box-sizing: border-box;
+}

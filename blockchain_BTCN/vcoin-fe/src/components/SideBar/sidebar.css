@@ -1,0 +1,85 @@
+.sidebar {
+  width: 40%;
+  display: fixed;
+  background: radial-gradient(
+      137.35% 97% at 100% 50%,
+      rgba(250, 250, 250, 0.94) 0%,
+      rgba(250, 250, 250, 0.96) 28.91%,
+      rgba(250, 250, 250, 0.98) 100%
+    ),
+    linear-gradient(rgb(197, 73, 255) 0%, rgb(104, 76, 255) 100%);
+  position: relative;
+}
+
+@media only screen and (max-width: 650px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.network-list {
+  list-style: none;
+  width: 94%;
+  margin: auto;
+}
+
+.network-item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 0.8em;
+  height: 2.4em;
+}
+
+.network-icon {
+  margin: 0.2em 0.5em 0.2em 0.5em;
+  width: 1.4em;
+  height: 1.4em;
+}
+
+.network-item:hover {
+  opacity: 0.8;
+}
+
+.item-bg-active {
+  background: #d3d3d3;
+}
+.item-bg-active:hover {
+  opacity: 1;
+}
+
+.item-bg {
+  background: radial-gradient(
+      137.35% 97% at 100% 50%,
+      rgba(250, 250, 250, 0.94) 0%,
+      rgba(250, 250, 250, 0.96) 28.91%,
+      rgba(250, 250, 250, 0.98) 100%
+    ),
+    linear-gradient(rgb(197, 73, 255) 0%, rgb(104, 76, 255) 100%);
+}
+
+.item-bg:hover {
+  background: #d3d3d3;
+  opacity: 0.8;
+}
+
+.connect-to-peer-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+.connect-to-peer-btn {
+  background-color: green;
+  color: white;
+  padding: 0.5em;
+  border-radius: 8px;
+  border: 4px solid white;
+}
+.connect-to-peer-btn:hover {
+  cursor: pointer;
+}

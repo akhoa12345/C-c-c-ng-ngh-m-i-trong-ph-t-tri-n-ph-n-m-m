@@ -1,0 +1,39 @@
+.address-container {
+  border: 1px solid rgba(95, 99, 104, 0.2);
+  margin: 2em 2em 0.5em 2em;
+  padding: 1em;
+  border-radius: 0.4em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.text-container > p,
+input {
+  margin: 0.5em 0.5em 0.5em 0.8em;
+  box-sizing: border-box;
+}
+
+.address-img {
+  border-radius: 50%;
+  width: 4em;
+  height: 4em;
+}
+
+.input-address-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.input-address-container > p {
+  margin-left: 1em;
+}
+.input-address-container > input {
+  margin-left: 0.3em;
+}
